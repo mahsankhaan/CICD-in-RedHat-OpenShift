@@ -1,0 +1,14 @@
+{
+  "name": "banking-app",
+  "version": "1.0.0",
+  "description": "My monolithic banking-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "'"
+  },
+  "author": "MuhammadAhsanKhan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1"
+  }
+}
