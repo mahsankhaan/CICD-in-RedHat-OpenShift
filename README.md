@@ -62,7 +62,4 @@ __NOTE__ : This is a important step because in lab you will provide your fork re
 1. Pass command `oc expose svc/bankapplication` to expose the application to the world.
 1. Now get the route of the application `oc get routes`. Open the host (bankapplication-sn-labs-mahsankhan.labs-user-sandbox-...) in the browser and check bank application is up and running.
 
-username:admin 
-pass:123
-
 ![admin](images/s5.png)
