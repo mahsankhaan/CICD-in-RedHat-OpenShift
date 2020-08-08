@@ -55,5 +55,5 @@ __NOTE__ : This is a important step because in lab you will provide your fork re
 
 ### Step 5. Deploy an application using S2I Method
 1. Click on __Terminal__ on top. 
-1.  Run command `oc status` to check cluster is provisioned successfully an the current project as __sn-labs-mahsankhan__ .(in your case it will be different) 
-
+1. Run command `oc status` to check cluster is provisioned successfully an the current project as __sn-labs-mahsankhan__ .(in your case it will be different) 
+1. Run command `oc new-app --name=bankapplication https://github.com/mahsankhaan/CICD-in-RedHat-OpenShift.git` to deploy the application (Please note GitHub URL will be your fork URL done in [Step 3](#step-3-fork-the-github-repository))
