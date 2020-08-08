@@ -47,14 +47,6 @@ __Deploy Config__: Once the image is successfully built then deploy config is re
 
 __NOTE__ : This is a important step because in lab you will provide your fork repo or else change in the code will not trigger.
 
-### Step 4. Get RedHat OpenShift CodeLab 
-1. Get a free lab from [here](https://developer.ibm.com/tutorials/openshift-basics-workshop-labs/)
-1. Click on __Access the OpenShift Lab__ and you will be redirected to the lab page (wait it will take somme time to provision the lab resources)
-1. Once it is done you can see the below page.
-
-![lab](images/s1.png)
-
-
 
 ### Step 4. Get RedHat OpenShift CodeLab 
 1. Get a free lab from [here](https://developer.ibm.com/tutorials/openshift-basics-workshop-labs/)
