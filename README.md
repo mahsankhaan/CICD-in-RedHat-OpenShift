@@ -10,7 +10,7 @@ CI/CD is one of the popular use-cases for OpenShift Container Platform. OpenShif
 1. [Understand CICD Workflow in RedHat OpenShift](#step-2-understand-CICD-workflow-in-redhat-openshift)
 1. [Fork the GitHub repository](#step-3-fork-the-github-repository)
 1. [Get RedHat OpenShift CodeLab](#step-4-Get-RedHat-OpenShift-CodeLab)
-1. [Deploy an application using S2I Method](#step-5-deploy-an-application-using-S2I Method)
+1. [Deploy an application using S2I Method](#step-5-deploy-an-application-using-S2I-Method)
 1. [Update some code to check continuous Integration and Delivery](#step-6-Update-some-code-to-check-continuous-Integration-and-delivery)
 
 
