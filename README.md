@@ -1,5 +1,8 @@
 __Continuous Integration & Delivery in RedHat OpenShift__
 
+![archi](images/OC.png)
+
+
 Red Hat® OpenShift® is an enterprise-ready Kubernetes container platform with full-stack automated operations to manage hybrid cloud and multicloud deployments. Red Hat OpenShift is optimized to improve developer productivity and promote innovation
 
 CI/CD is one of the popular use-cases for OpenShift Container Platform. OpenShift scales the pipeline execution through on-demand provisioning in containers. OpenShift provides an end-to-end solution for building complete deployment pipelines and removes the wait time for running builds in large projects
