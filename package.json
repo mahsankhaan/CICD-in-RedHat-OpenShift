@@ -10,5 +10,16 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.1"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahsankhaan/CICD-in-RedHat-OpenShift.git"
   }
 }
