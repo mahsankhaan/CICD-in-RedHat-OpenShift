@@ -9,8 +9,9 @@ CI/CD is one of the popular use-cases for OpenShift Container Platform. OpenShif
 1. [Important Terminologies](#step-1-important-terminologies)
 1. [Understand CICD Workflow in RedHat OpenShift](#step-2-understand-CICD-workflow-in-redhat-openshift)
 1. [Fork the GitHub repository](#step-3-fork-the-github-repository)
-1. Get RedHat OpenShift CodeLab 
-1. Let's deploy an application using S2I Method
+1. [Get RedHat OpenShift CodeLab](#step-4-Get-RedHat-OpenShift-CodeLab)
+1. [Deploy an application using S2I Method](#step-5-deploy-an-application-using-S2I Method)
+1. [Update some code to check continuous Integration and Delivery](#step-6-Update-some-code-to-check-continuous-Integration-and-delivery)
 
 
 ### Step 1. Important Terminologies
@@ -63,3 +64,6 @@ __NOTE__ : This is a important step because in lab you will provide your fork re
 1. Now get the route of the application `oc get routes`. Open the host (bankapplication-sn-labs-mahsankhan.labs-user-sandbox-...) in the browser and check bank application is up and running.
 
 ![admin](images/s5.png)
+
+### Step 6. Update some code to check continuous Integration and Delivery
+
