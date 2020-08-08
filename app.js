@@ -6,6 +6,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'node_modules')));
 app.use(express.static(path.join(__dirname, 'public')));
 
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
 
 app.get("/home", function (req, res) {
     console.log("I am home");
@@ -62,6 +63,6 @@ app.get("/user_in", function (req, res) {
     }
 });
 //module.exports.app = app;
-app.listen(3000, function () {
+app.listen(port, function () {
     console.log("App is running");
 });
