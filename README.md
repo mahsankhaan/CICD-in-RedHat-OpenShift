@@ -1,5 +1,3 @@
-__Continuous Integration & Delivery in RedHat OpenShift__
-
 ![archi](images/OC.png)
 
 
