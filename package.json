@@ -9,7 +9,8 @@
   "author": "MuhammadAhsanKhan",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.0.1"
+    "ejs": "^3.0.1",
+    "express": "^4.13.4",
   },
   "engine": {
     "node": "*",
