@@ -67,3 +67,8 @@ __NOTE__ : This is a important step because in lab you will provide your fork re
 
 ### Step 6. Update some code to check continuous Integration and Delivery
 
+1. Open the [repo](https://github.com/mahsankhaan/CICD-in-RedHat-OpenShift.git) (in you case kindly open your __Fork__ repo) this is important because you can't make change in this repo directly.
+1. Open Folder __views__ -> __admin_login.ejs__  (Open File at line 141 make it __WELCOME ADMIN LOGIN__), Click commit changes.
+1. Now again open the terminal and pass command `oc start-build bankapplication` now complete workflow will take place as discussed in [Step 2](#step-2-understand-CICD-workflow-in-redhat-openshift) .
+
+
