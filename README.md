@@ -70,5 +70,8 @@ __NOTE__ : This is a important step because in lab you will provide your fork re
 1. Open the [repo](https://github.com/mahsankhaan/CICD-in-RedHat-OpenShift.git) (in you case kindly open your __Fork__ repo) this is important because you can't make change in this repo directly.
 1. Open Folder __views__ -> __admin_login.ejs__  (Open File at line 141 make it __WELCOME ADMIN LOGIN__), Click commit changes.
 1. Now again open the terminal and pass command `oc start-build bankapplication` now complete workflow will take place as discussed in [Step 2](#step-2-understand-CICD-workflow-in-redhat-openshift) .
+1. Again run the command `oc get pods` and now can check a new __build-2__ is running. A new updated pod would be created __bankapplication-2-vb8rg__ and previous one would be deleted.
+1. Open the same URL again and can verify the update.
+
 
 
