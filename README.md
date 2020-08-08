@@ -54,6 +54,6 @@ __NOTE__ : This is a important step because in lab you will provide your fork re
 
 
 ### Step 5. Deploy an application using S2I Method
-1. Click on __terminal__ on top 
-1.  Run command `oc status` to check cluster is provisioned successfully 
+1. Click on __Terminal__ on top. 
+1.  Run command `oc status` to check cluster is provisioned successfully an the current project as __sn-labs-mahsankhan__ .(in your case it will be different) 
 
