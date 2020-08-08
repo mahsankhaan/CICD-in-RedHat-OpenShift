@@ -57,3 +57,4 @@ __NOTE__ : This is a important step because in lab you will provide your fork re
 1. Click on __Terminal__ on top. 
 1. Run command `oc status` to check cluster is provisioned successfully an the current project as __sn-labs-mahsankhan__ .(in your case it will be different) 
 1. Run command `oc new-app --name=bankapplication https://github.com/mahsankhaan/CICD-in-RedHat-OpenShift.git` to deploy the application (Please note GitHub URL will be your fork URL done in [Step 3](#step-3-fork-the-github-repository))
+1. Build will start and you can see the logs by `oc logs -f bc/bankapplication` 
