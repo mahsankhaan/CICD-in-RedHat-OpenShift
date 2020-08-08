@@ -54,9 +54,18 @@ __NOTE__ : This is a important step because in lab you will provide your fork re
 ![lab](images/s1.png)
 
 
+
+### Step 4. Get RedHat OpenShift CodeLab 
+1. Get a free lab from [here](https://developer.ibm.com/tutorials/openshift-basics-workshop-labs/)
+1. Click on __Access the OpenShift Lab__ and you will be redirected to the lab page (wait it will take some time to provision the lab resources)
+1. Once it is done you can see the below page.
+
+![lab](images/s1.png)
+
+
 ### Step 5. Deploy an application using S2I Method
 1. Click on __Terminal__ on top. 
-1. Run command `oc status` to check cluster is provisioned successfully an the current project as __sn-labs-mahsankhan__ .(in your case it will be different) 
+1. Run command `oc status` to check cluster is provisioned successfully, the current project as __sn-labs-mahsankhan__ .(in your case it will be different) 
 1. Run command `oc new-app --name=bankapplication https://github.com/mahsankhaan/CICD-in-RedHat-OpenShift.git` to deploy the application (Please note GitHub URL will be your fork URL done in [Step 3](#step-3-fork-the-github-repository))
 1. Build will start and you can see the logs by `oc logs -f bc/bankapplication` 
 1. Run command `oc get pods -w` and can verify build and deploy stages are successfully complete and one pod is running __bankapplication-1-n6ddx__ (in your case it will be different) 
@@ -67,11 +76,10 @@ __NOTE__ : This is a important step because in lab you will provide your fork re
 
 ### Step 6. Update some code to check continuous Integration and Delivery
 
-1. Open the [repo](https://github.com/mahsankhaan/CICD-in-RedHat-OpenShift.git) (in you case kindly open your __Fork__ repo) this is important because you can't make change in this repo directly.
+1. Open the [repo](https://github.com/mahsankhaan/CICD-in-RedHat-OpenShift.git) (in your case kindly open your __Fork__ repo) this is important because you can't make a change in this repo directly.
 1. Open Folder __views__ -> __admin_login.ejs__  (Open File at line 141 make it __WELCOME ADMIN LOGIN__), Click commit changes.
 1. Now again open the terminal and pass command `oc start-build bankapplication` now complete workflow will take place as discussed in [Step 2](#step-2-understand-CICD-workflow-in-redhat-openshift) .
-1. Again run the command `oc get pods` and now can check a new __build-2__ is running. A new updated pod would be created __bankapplication-2-vb8rg__ and previous one would be deleted.
+1. Again run the command `oc get pods` and now can check a new __build-2__ is running. A newly updated pod would be created __bankapplication-2-vb8rg__ and the previous one would be deleted.
 1. Open the same URL again and can verify the update.
-
 
 
