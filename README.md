@@ -39,6 +39,7 @@ __Deploy Config__: Once the image is successfully built then deploy config is re
 1. Once the complete process of Build is done then comes the responsibility of __Deployment Configuration__ to create the pods in OpenShift depending on the image specifications.
 
 ### Step 3. Fork the GitHub repository
+1. Create IBM [Account](ibm.biz/cicd_openshift)
 1. Open this [repo](https://github.com/mahsankhaan/CICD-in-RedHat-OpenShift)
 1. And then click on __Fork__ on the top right.
 
